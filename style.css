@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+	/*----------------------------------------COMPLETE WEBSITE STRUCTURE------------------------------*/
+
+
+/* .mainDiv{
+	width: 100%;
+	height: 100vh;
+} */
+
+.logo{
+	margin: 18px 50px;
+	font-weight: bold;
+	font-size: 25px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.subDiv{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 10vh;
+	border-bottom: 1px solid black;
+	background-color: floralwhite;
+}
+
+.subDiv ul li{
+	display: inline-block;
+	margin: 25px 40px;
+	
+
+}
+
+.subDiv ul li a{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+}
+
+
+.subDiv ul li a::after{
+	content: '';
+	position: absolute;
+	width: 0%;
+	left: 0;
+	height: 3px;
+	bottom: -3px;
+	background-color: orangered;
+	transition: 0.6s ease-out;
+}
+
+
+.subDiv ul li a:hover:after{
+	width: 100%;
+}
+
+.subDiv ul li a:hover{
+	color: orangered;
+}
+
+section{
+	width: 100%;
+	height: 90vh;
+}
+
+span{
+	color: orangered;
+}
+
+
+.webdev{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.webdev img{
+	width: 700px;
+	height: 600px;
+	margin-top: 30px;
+	margin-right: 25px;
+	float: right;
+}
+
+.roadMap{
+	margin-left: 70px;
+	font-weight: bold;
+	margin-top: 70px;
+	font-size: 22px;
+}
+
+.roadMap .listss{
+	list-style: none;
+	margin-top: 50px;
+}
+
+.roadMap .changeText:after{
+	content: '';
+	animation: changetext 6s infinite linear;
+	color: orangered;
+}
+
+@keyframes changetext{
+	0%{content: "DEVELOPER";}
+	25%{content: "DESINGER";}
+	50%{content: "BUILDER";}
+	75%{content: "MAKER";}
+	100%{content: "DEVELOPER";}
+}
+
+
+.listss .diva{
+	line-height: 40px;
+	margin-left: -90px;
+	background-color: black;
+	border-radius: 25px;
+	border: 2px solid orangered;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+.listss #diva1{
+	width: 130px;
+	padding-left: 35px;
+}
+
+.roadMap #diva2{
+	width: 150px;
+	padding-left: 45px;
+}
+
+.roadMap #diva3{
+	width: 400px;
+	padding-left: 55px;
+}
+
+.roadMap #diva4{
+	width: 260px;
+	padding-left: 65px;
+}
+
+.roadMap #diva5{
+	width: 250px;
+	padding-left: 75px;
+}
+
+.roadMap #diva6{
+	width: 490px;
+	padding-left: 85px;
+}
+
+
+.mainDiv2{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+
+.subDiv2{
+	box-shadow: 1px 1px 2px 2px orange;
+}
+
+.mainDiv2 .subDiv2{
+	color: white;
+	width: 28%;
+	background-color: white;
+	color: black;
+	
+}
+
+
+.mainDiv2 .subDiv2 h1{
+	background-color: orangered;
+	border-radius: 20px;
+	display: grid;
+	place-items:  center;
+	color: white;
+}
+
+#idss1{
+	width: 28%;
+	background-color: white;
+	display: grid;
+	grid-template-rows: 80px 150px;
+	border-radius: 30px;
+	margin: 10px 0 40px 0 ;
+	border: 1px solid orangered;
+
+}
+
+#idss2{
+	width: 28%;
+	border: white;
+	display: grid;
+	grid-template-rows: 80px 150px;
+	border-radius: 30px;
+	margin: 40px 0 10px 0;
+	border: 1px solid orangered;
+}
+
+#idss3{
+	width: 28%;
+	background-color: white;
+	display: grid;
+	grid-template-rows: 80px 150px;
+	border-radius: 30px;
+	margin: 10px 0 40px 0 ;
+	border: 1px solid orangered;
+}
+
+p{
+	padding: 12px;
+
+} 
+
+
+
+.gradiieent{
+	width: 100%;
+	height: 100vh;
+	transform: rotate(5deg);
+	color: white;
+	background-color: black;
+	overflow: hidden;
+}
+
+
+#toDoList{
+	width: 100%;
+	height: 100vh;
+	background-color: floralwhite;
+	position: relative;
+}
+
+.subList{
+	width: 90%;
+	height: 90vh;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: lightcoral;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 25px;
+	box-shadow: 1px 2px 2px 1px #DD5353;
+
+}
+
+.subList img{
+	float: right;
+	position: absolute;
+	left: 500px;
+	top: 60px;
+}
+
+.subList{
+	padding-top:  150PX;
+	padding-left: 120px;
+}
+
+.subList h1{
+	font-family: 'Bree Serif', serif;
+	font-size: 40px;
+	padding-left: 25px;
+	display: grid;
+	place-items: center;
+}
+.subList h5{
+	padding-left: 30px;
+	width: 250px;
+	height: 20px;
+	padding-top: 2px;
+	border-radius: 20px;
+	background-color: #fff;
+}
+
+.subList2{
+	margin-left: 40px;
+}
+
+.subList2 , input{
+	display: block;
+	margin-top: 10px;
+	margin-left: 60px;
+	width: 80px;
+	background: transparent;
+	width: 100px;
+	outline: none;
+	border-radius: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.staan1{
+	background: transparent;
+	outline: none;
+	width: 200px;
+	border: 1px solid black;
+	padding: 5px 3px;
+	color: white;
+	border-radius: 25px;
+	margin-left: 20px;
+	padding-left: 45px;
+	cursor: pointer;
+}
+
+.staan1:hover{
+	width: 230px;
+	transition: 0.4s;
+}
+
+.staan{
+	background-color: #FF8787;
+	color: black;
+}
+
+/* --------------------------------- form --------------------------------------- */
+
+.formLink{
+	width: 100%;
+	height: 100vh;
+	
+}
+
+
+footer{
+	width: 100%;
+	height: 6vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid orangered;
+	background-color: floralwhite;
+
+}
+
+footer i{
+	padding-left: 15px;
+	font-size: 25px;
+	cursor: pointer;
+}
+	
+
+
+
+
+

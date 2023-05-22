@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	background-color: #f0f0f0;
+	position: relative;
+}
+
+section .facebook{
+	position: absolute;
+	color: rgb(24, 113, 216);
+	top: 20px;
+	left: 500px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.subForm{
+	width: 35%;
+	height: 85vh;
+	background-color: #fff;
+	position: relative;
+	top: 100px;
+	left: 390px;
+	border-radius: 10px  10px  0 0 ;
+	box-shadow: 2px 2px 2px rgb(177, 170, 170);
+}
+
+.subForm .subForm1{
+	border-bottom: 1px solid #bdc7d8;
+	height: 11vh;
+}
+
+.subForm .subForm1 .quick{
+	position: relative;
+	left: 110px;
+	top: 15px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.subForm .subForm1 .quick1{
+	position: relative;
+	left: 150px;
+	top: 15px;
+	font-size: 15px;
+}
+
+ section .subForm .firstName{
+	width: 100%;
+	height: 25px;
+}
+
+section .subForm .firstName .search{
+	background-color: transparent;
+	border-radius: 10px;
+	border: 1px solid #bdc7d8;
+	padding-left: 10px;
+	width: 200px;
+	height: 40px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
+section .subForm .email{
+	position: relative;
+	top: 30px;
+	left: 10px;
+}
+
+section .subForm .email .box{
+	background: transparent;
+	width: 412px;
+	height: 40px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	padding-left: 10px;
+}
+
+section .subForm .validation{
+	position: relative;
+	top: 30px;
+	left: 10px;
+}
+
+section .subForm .validation .limit{
+	width: 133px;
+	height: 35px;
+	padding: 0 10px 0;
+	margin-top: 3px;
+	background: transparent;
+	border: 1px solid #bdc7d8;
+}
+
+section .gender{
+	position: relative;
+	top: 30px;
+	left: 10px;
+	margin-top: 9px;
+}
+
+section .gender .body{
+	display: inline-block;
+	background: transparent;
+	width: 133px;
+	height: 35px;
+	border: 1px solid #bdc7d8;
+	padding: 7px 0 0 10px;
+}
+
+section .paraGraph{
+	position: relative;
+	top: 50px;
+	left: 10px;
+	width: 92%;
+}
+
+section .paraGraph p{
+	font-size: 11px;
+	color: #385898;
+}
+
+section button{
+	position: relative;
+	top: 70px;
+	left: 110px;
+	background-color: #00a400;
+	border: none;
+	width: 200px;
+	height: 36px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+section .already{
+	position: relative;
+	top: 70px;
+	left: 115px;
+	font-size: 15px;
+	
+}
+
+section .already a{
+	color: #1877f2
+}
+
+
